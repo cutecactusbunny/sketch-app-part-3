@@ -1,0 +1,45 @@
+body {
+    background-color: rgb(171, 241, 215);
+  }
+span {
+    font-size: large;
+    margin-left: px;
+}
+
+h1
+{
+
+    color: cornflowerblue;
+    background-color: cornsilk;
+}
+
+#show_sketch
+{
+    float: right;
+}
+
+
+canvas
+  {
+    border: 5px solid whitesmoke;
+    border-radius: 20px;
+    animation-name: example;
+    animation-duration: 4s;
+    margin-top: 50px;
+    animation-iteration-count: infinite;
+
+  }
+  @keyframes example {
+
+    from {box-shadow: 1px 1px 38px cornflowerblue;}
+    to {box-shadow: 1px 1px 38px whitesmoke;}
+
+  }
+
+p
+ {
+    padding-top: 10px;
+    font-size: 25px;
+
+ }
+
